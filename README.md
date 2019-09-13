@@ -16,8 +16,6 @@ We strive for these principles in every design.
 
 ### Color
 
-### Vision & Values
-
 ## The Team
 * **Liam Keery** - Designer, Developer
 * **Noah Fainer** - Developer, Video Editor
