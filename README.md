@@ -5,19 +5,36 @@ The official GitHub repository for Vivid Agency.
 
 ## Our Branding
 
-Our core values are simple:
+Our core values are:
 * **Simplicity**
 * **Consistency**
 * **Quality**
+* **Customer Oriented**
+* **Sophisticated**
+* **Bold and unapologetic**
+
 
 We strive for these principles in every design. 
 
+Our brand focouses on web developement and design, UX/UI design and creative production. Throughout all our creatives, we aim to acheive an emotion connection with our audience. 
+
 ### Typography
 
-### Color
+Our typography is fundamental to our brands identity and expression. Within designs, fonts should be used to help further create a simplistic and bold creation. 
+
+Our praimary fonts are Montserrat Alternates and Open Sans. Montserrat Alternates should be used for headings, however,it should remain strictly in lowercase. Open Sans should be used for larger bodies of text. 
+
+### Colors
+* **BLACK HEX: #000000 C=75, M=68, Y=67, K=9**
+* **NAVY HEX: #040159 C=96, M=99, Y=0, K=65**
+* **DARK PURPLE HEX: #000000 C=75, M=68, Y=67, K=90**
+* **BRIGHT PURPLE HEX: #000000 C=75, M=68, Y=67, K=90**
+* **PINK HEX: #000000 C=75, M=68, Y=67, K=90**
+* **ORANGE HEX: #000000 C=75, M=68, Y=67, K=90**
+* **WHITE HEX: #ffffff C=0, M=0, Y=0, K=0**
 
 ## The Team
-* **Liam Keery** - Designer, Developer
-* **Noah Fainer** - Developer, Video Editor
-* **Natalie Soberano** - Designer
-* **Yasmina May** - Designer, Illustrator
+* **Liam Keery** - Designer and Developer
+* **Noah Fainer** - Developer and Video Editor
+* **Natalie Soberano** - Designer and Copy Writter
+* **Yasmina May** - Designer and Illustrator
