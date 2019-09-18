@@ -1,0 +1,24 @@
+$titlebar-background: transparent;
+$topbar-background: transparent;
+
+.top-bar {
+
+    .menu {
+        a {
+            color: white;
+        }
+    }
+
+    img {
+        max-width: 80px;
+        min-width: 80px;
+    }
+}
+
+.title-bar-left {
+
+    img {
+        max-width: 80px;
+        min-width: 80px;
+    }
+}
