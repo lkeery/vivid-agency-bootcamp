@@ -6,6 +6,7 @@
 
 // Custom imports
 @import 'nav';
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 // Global styles
 @include foundation-global-styles;
@@ -65,3 +66,87 @@
 // Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+$primary-red: #F23827;
+
+body {
+    background: transparent;
+    background: -moz-linear-gradient(180deg, rgba(97,7,191,1) 0%, rgba(8,5,88,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(97,7,191,1) 0%, rgba(8,5,88,1) 100%);
+    background: linear-gradient(180deg, rgba(97,7,191,1) 0%, rgba(8,5,88,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6107bf",endColorstr="#080558",GradientType=1);
+}
+
+.hero-full-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .bottom-content-section {
+        text-align: center;
+        position: relative;
+        top: -50px;
+      svg {
+        height: rem-calc(55);
+        width: rem-calc(55);
+        fill: $white;
+      }
+    }
+}
+
+#call {
+    text-align: center;
+    height: 650px;
+
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        margin-top: 170px;
+        margin-bottom: 30px;
+        font-weight: 300;
+    }
+}
+
+#illustration {
+    background: url('../images/splash-image.svg');
+    background-repeat: no-repeat;
+    background-size: 650px 650px;
+}
+
+.button {
+    width: 250px;
+    text-transform: uppercase;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+}
+
+
+
+#services {
+    
+    h3 {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .divide {
+        border: 2px solid $primary-red;
+        width: 50%;
+        border-radius: 2px;
+    }
+
+    img {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+}
+

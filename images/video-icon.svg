@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="90px" viewBox="0 0 135 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>video</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="20.7981419%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#642DBB" offset="0%"></stop>
+            <stop stop-color="#9182B6" offset="100%"></stop>
+            <stop stop-color="#27067D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="video" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Shape">
+                <path d="M78.796875,0 L11.203125,0 C5.015625,0 0,5.015625 0,11.203125 L0,78.796875 C0,84.984375 5.015625,90 11.203125,90 L78.796875,90 C84.984375,90 90,84.984375 90,78.796875 L90,11.203125 C90,5.015625 84.984375,0 78.796875,0 Z M123.1875,8.8359375 L97.5,26.5546875 L97.5,63.4453125 L123.1875,81.140625 C128.15625,84.5625 135,81.0703125 135,75.09375 L135,14.8828125 C135,8.9296875 128.179688,5.4140625 123.1875,8.8359375 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
