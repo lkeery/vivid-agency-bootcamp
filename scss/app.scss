@@ -6,7 +6,7 @@
 
 // Custom imports
 @import 'nav';
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500i,600&display=swap');
 
 // Global styles
 @include foundation-global-styles;
@@ -147,6 +147,58 @@ body {
         padding: 20px;
         margin: 20px;
         text-align: center;
+    }
+}
+
+.chev-right {
+    float: right;
+    position: relative;
+    right: 300px;
+    top: 500px;
+}
+
+.chev-left {
+    float: left;
+    position: relative;
+    left: 300px;
+    top: 500px;
+}
+
+#member-card {
+    text-align: center;
+    margin-top: 100px;
+
+    .divide {
+        border: 2px solid $primary-red;
+        width: 50%;
+        border-radius: 2px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+
+    .bio {
+        color: $white;
+        $body-font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        line-height: 35px;
+        text-align: justify;
+        margin-top: 40px;
+    }
+
+    .member-role {
+        font-family: 'Monserrat', sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        text-transform: uppercase;
+        font-size: 18px;
     }
 }
 
