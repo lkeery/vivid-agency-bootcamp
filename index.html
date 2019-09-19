@@ -56,7 +56,7 @@
     </div>
 
       
-      <div class="grid-x grid-padding-x" id="services">
+      <div class="grid-x grid-padding-x align-center" id="services">
         <div class="cell medium-4 columns">
         <div class="card">
           <img class="services-icon" alt="Web Development" src="images/web-dev-icon.svg">
@@ -85,26 +85,60 @@
 
       <div class="grid-x grid-padding-x" id="team">
         <div class="cell small-4 columns">
-            <img src="images/chevron-left.svg" alt="Click to view next team member" class="chev-left">
+            <a href="#" class="memberToggle"><img src="images/chevron-left.svg" alt="Click to view next team member" class="chev-left"></a>
         </div>
         <div class="cell large-4 columns" id="member-card">
           <h1>The Vivid Team</h1>
+          <div class="member-wrapper">
           <img src="images/liam.png" class="member-img" alt="">
           <hr class="divide">
           <p class="member-role">Liam Keery - UX Desinger & Developer</p>
           <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in.</p>
         </div>
+        </div>
         <div class="cell small-4 columns">
-            <img src="images/chevron-right.svg" alt="Click to view next team member" class="chev-right">
+            <a href="" class="memberToggle"><img src="images/chevron-right.svg" alt="Click to view next team member" class="chev-right"></a>
         </div>
       </div>
 
+      <div class="grid-x grid-padding-x" id="work">
+        <div class="cell large-12 columns">
+          <h1>Our Work</h1>
+          <img src="images/pure-volume-mockup.png" alt="Pure Volume Rebrand">
+          <h3>Pure Volume Rebrand</h3>
+          <hr class="divide">
+          <a href="features.html" class="button large">View Case Study</a>
+        </div>
+      </div>
 
+      <div class="grid-x grid-padding-x" id="contact">
+        <div class="cell large-12 columns">
+          <h1>Work With Us</h1>
+          <hr class="divide">
+          <p class="form-desc">Make your digital presence <span class="vivid">Vivid</span>.</p>
+        </div>
+      </div>
+
+      <form id="contact-form">
+          <input type="text" required placeholder="Your Name"></input>
+          <input type="text"  required placeholder="Your Email"></input>
+          <textarea required placeholder="Your Message"></textarea>
+          <input type="submit" value="Submit" class="button">
+      </form>
+
+            <footer id="footer" class="footer">
+                
+            </footer>
+            
+            <div id="copyright"><p class="copy">&copy; 2019 Vivid Agency. All Rights Reserved.</p></div>
+      
+      
       </div>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/what-input/dist/what-input.js"></script>
     <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>
