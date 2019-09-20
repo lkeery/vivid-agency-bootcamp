@@ -16,13 +16,13 @@ Our core values are:
 
 We strive for these principles in every design. 
 
-Our brand focouses on web developement and design, UX/UI design and creative production. Throughout all our creatives, we aim to acheive an emotion connection with our audience. 
+Our brand focouses on web developement and design, UX/UI design and creative production. Throughout all of our creatives, we aim to achieve an emotional connection with our audience. 
 
 ### Typography
 
-Our typography is fundamental to our brands identity and expression. Within designs, fonts should be used to help further create a simplistic and bold creation. 
+Our typography is fundamental to our brand identity and expression. Within designs, our defined fonts should be used to help further create a simplistic and bold creation. 
 
-Our praimary fonts are Montserrat Alternates and Open Sans. Montserrat Alternates should be used for headings, however,it should remain strictly in lowercase. Open Sans should be used for larger bodies of text. 
+Our primary fonts are ```Montserrat Alternates``` and ```Open Sans```. Montserrat Alternates should be used for headings, and Open Sans should be used for larger bodies of text. 
 
 ### Colors
 * **BLACK HEX: #000000 C=75, M=68, Y=67, K=9**
