@@ -305,3 +305,45 @@ body {
     }
 }
 
+.reveal {
+    h1 {
+        color: #242424;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        color: #242424;
+        text-align: center;
+        $body-font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    .divide {
+        border: 2px solid $primary-red;
+        width: 25%;
+        border-radius: 2px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .case-body {
+        color: #242424;
+        $body-font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        margin: 30px;
+        text-align: justify;
+        font-size: 24px;
+    }
+
+    img {
+        padding-top: 30px;
+    }
+}
+
