@@ -120,13 +120,12 @@ body {
 
 .card {
     width: 400px;
-    height: 500px;
+    height: 600px;
 }
 
-
-
 #services {
-    
+    text-align: center;
+
     h3 {
         text-align: center;
         font-family: 'Montserrat', sans-serif;
@@ -269,11 +268,62 @@ body {
 }
 
 #footer {
-    height: 300px;
+    height: 350px;
     width: 100%;
     background: #0E065F;
-    margin-top: 100px;
+    margin-top: 100px;    
+}
+
+.footer {
+    border-top: 1px solid $white;
+
+    a {
+        color: white;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .menu {
+        text-align: center;
+    }
+
+    .divide {
+        border: 2px solid $primary-red;
+        width: 30%;
+        border-radius: 2px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .top {
+        margin-top: 30px;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+.logos {
+    text-align: center;
     
+    ul {
+        display: inline;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    svg {
+        max-width: 25px;
+        margin-right: 10px;
+        fill: white;
+    }
 }
 
 #copyright {
