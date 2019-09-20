@@ -305,3 +305,22 @@ body {
     }
 }
 
+.videoPlayer{
+    position: relative;
+    padding-bottom: 20px;
+
+    video{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+}
+
+.videoControls{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
