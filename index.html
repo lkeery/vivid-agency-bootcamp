@@ -7,6 +7,8 @@
     <title>Vivid Design Agency</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   </head>
   <body>
 
@@ -16,7 +18,6 @@
 
       <div id="nav">
         
-
             <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
               <div class="title-bar-left"><a href="#"><img src="images/vivid_agency_logo.svg" alt="Vivid Design Agency"></a></div>
               <div class="title-bar-right"><button class="menu-icon" type="button" data-toggle="responsive-menu"></button></div>
@@ -45,21 +46,34 @@
         <div class="cell medium-6 columns" id="call">
           <h1 class="tagline">We don't follow design trends, we create them.</h1>
           <br>
-          <a href="#services" class="button large">See What We Do</a>
+          <a href="#video" class="button large">See What We Do</a>
         </div>
 
         <div class="cell medium-6 columns" id="illustration"></div>
       </div>   
 
       <div class="bottom-content-section" data-magellan data-threshold="0">
-          <a href="#services"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"/></svg></a>
+          <a href="#video"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"/></svg></a>
       </div>
 
     </div>
 
+    <div class="grid-x grid-padding-x">
+        <div class="cell large-12 columns videoPlayer" id="video">
+            <video id="trailer">
+              <source src="video/VividAgency_PromoVideo_v06.mp4" type="video/mp4">
+            </video>
+  
+            <div class="cell large-12 columns videoControls">
+              <button class="play"><i class="fi-play play-pause"></i></button>
+              <button class="pause"><i class="fi-pause play-pause"></i></button>
+            </div>
+        </div>
+      </div>
       
-      <div class="grid-x grid-padding-x" id="services">
-        <div class="cell medium-4 columns align-center">
+      <div class="grid-x grid-padding-x show-for-large" id="services">
+        
+        <div class="cell medium-4 columns">
         <div class="card">
           <img class="services-icon" alt="Web Development" src="images/web-dev-icon.svg">
           <hr class="divide">
@@ -67,7 +81,8 @@
           <p class="description">Are you looking to change up the look and feel of your website? Do you want something sophisticated, bold, and expressive of your brand? At Vivid, we create quality websites that focus on presenting content in an impactful and meaningful way. We believe in making sites user friendly, with easy navigation and readability to strengthen your brand identity.</p>
         </div>
         </div>
-        <div class="cell medium-4 columns align-center">
+
+        <div class="cell medium-4 columns">
           <div class="card">
               <img class="services-icon" alt="Graphics Design" src="images/graphics-icon.svg">
               <hr class="divide">
@@ -75,45 +90,79 @@
               <p class="description">Vivid believes that a message is best told through visuals. We create a variety of graphics from custom illustrations to brochures, brand documents, infographics and more. Our custom visuals will not only help you beautify your brand, but will convey your message in a more effective manner. </p>
           </div>
         </div>
-      <div class="cell medium-4 columns align-center">
+
+      <div class="cell medium-4 columns">
         <div class="card">
           <img class="services-icon" alt="Video Production" src="images/video-icon.svg">
           <hr class="divide">
           <h3>Video Production</h3>
           <p class="description">At Vivid, we also create custom videos. Our video production team specializes in helping a brand clearly explain their identity and message in a clear and captivating way. Our videos can help your brand gain more traffic, shares, and revenue as well as create more brand awareness. Our company also specializes in 3D graphics and motion design, helping to truly bring your message to life.</p>
         </div>
-        </div>
+      </div>
+        
       </div>
 
-      <!-- <div class="grid-x grid-padding-x" id="team">
-        <div class="cell small-4 columns">
-            <a href="#" class="memberToggle"><img src="images/chevron-left.svg" alt="Click to view next team member" class="chev-left"></a>
-        </div>
-        <div class="cell large-4 columns" id="member-card">
-          <h1>The Vivid Team</h1>
-          <div class="member-wrapper">
-          <img src="images/liam.png" class="member-img" alt="">
-          <hr class="divide">
-          <p class="member-role">Liam Keery - UX Desinger & Developer</p>
-          <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in.</p>
-        </div>
-        </div>
-        <div class="cell small-4 columns">
-            <a href="" class="memberToggle"><img src="images/chevron-right.svg" alt="Click to view next team member" class="chev-right"></a>
+      <div class="grid-x grid-padding-x hide-for-large" id="services-responsive">
+        <div class="services-wrapper">
+          <div class="cell medium-4 columns">
+          <div class="card">
+            <img class="services-icon" alt="Web Development" src="images/web-dev-icon.svg">
+            <hr class="divide">
+            <h3>Web Development</h3>
+            <p class="description">Are you looking to change up the look and feel of your website? Do you want something sophisticated, bold, and expressive of your brand? At Vivid, we create quality websites that focus on presenting content in an impactful and meaningful way. We believe in making sites user friendly, with easy navigation and readability to strengthen your brand identity.</p>
+          </div>
+          </div>
+  
+          <div class="cell medium-4 columns">
+            <div class="card">
+                <img class="services-icon" alt="Graphics Design" src="images/graphics-icon.svg">
+                <hr class="divide">
+                <h3>Graphics Design</h3>
+                <p class="description">Vivid believes that a message is best told through visuals. We create a variety of graphics from custom illustrations to brochures, brand documents, infographics and more. Our custom visuals will not only help you beautify your brand, but will convey your message in a more effective manner. </p>
+            </div>
+          </div>
+  
+        <div class="cell medium-4 columns">
+          <div class="card">
+            <img class="services-icon" alt="Video Production" src="images/video-icon.svg">
+            <hr class="divide">
+            <h3>Video Production</h3>
+            <p class="description">At Vivid, we also create custom videos. Our video production team specializes in helping a brand clearly explain their identity and message in a clear and captivating way. Our videos can help your brand gain more traffic, shares, and revenue as well as create more brand awareness. Our company also specializes in 3D graphics and motion design, helping to truly bring your message to life.</p>
+          </div>
         </div>
       </div>
+        </div>
 
-      <div class="grid-x grid-padding-x" id="work">
+      <div class="grid-x grid-padding-x hide-for-large">
         <div class="cell large-12 columns">
-          <h1>Our Work</h1>
-          <img src="images/pure-volume-mockup.png" alt="Pure Volume Rebrand">
-          <h3>Pure Volume Rebrand</h3>
-          <hr class="divide">
-          <button class="button large" data-open="case-study">View Case Study</button>
+          <div class="member-card-small">
+              <img src="images/liam.svg" class="member-img" alt="Liam Keery">
+              <hr class="divide">
+              <p class="member-role">Liam Keery - UX Desinger &amp; Developer</p>
+              <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in.</p>
+          </div>
+          <div class="member-card-small">
+              <img src="images/noah.svg" class="member-img" alt="Noah Fainer">
+                        <hr class="divide">
+                        <p class="member-role">Noah Fainer - Motion Designer</p>
+                        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in.</p>
+          </div>
+          <div class="member-card-small">
+              <img src="images/natalie.svg" class="member-img" alt="Natalie Soberano">
+                        <hr class="divide">
+                        <p class="member-role">Natalie Soberano - Designer &amp; Copywriter</p>
+                        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in.</p>
+          </div>
+          <div class="member-card-small">
+              <img src="images/yasmina.svg" class="member-img" alt="Yasmina Mayot">
+                        <hr class="divide">
+                        <p class="member-role">Yasmina Mayot - Designer &amp; Illustrator</p>
+                        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in.</p>
+          </div>
         </div>
-      </div>-->
+      </div>
 
-      <div class="grid-x grid-padding-x">
+      <div class="grid-x grid-padding-x hide-for-small-only hide-for-medium-only">
         <div class="cell large-12 columns">
             <h1 class="team-h1">The Vivid Team</h1>
             <div class="orbit" role="region" aria-label="Favorite Text Ever" data-orbit>
@@ -125,7 +174,7 @@
                         <img src="images/liam.svg" class="member-img" alt="Liam Keery">
                         <hr class="divide">
                         <p class="member-role">Liam Keery - UX Desinger &amp; Developer</p>
-                        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in.</p>
+                        <p class="bio">Liam Keery is as front-end web developer &amp; a UX/UI Designer. He is in his fourth year of Western and Fanshawe's combined MTP program, focusing in Interactive Media Design. He has worked previously at RBC as a Data Analysis Intern &amp; a Quality Engineer.</p>
                     </div>
                   </li>
                   <li class="orbit-slide">
@@ -141,7 +190,7 @@
                         <img src="images/natalie.svg" class="member-img" alt="Natalie Soberano">
                         <hr class="divide">
                         <p class="member-role">Natalie Soberano - Designer &amp; Copywriter</p>
-                        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dapibus nunc, non lobortis turpis placerat in.</p>
+                        <p class="bio">Natalie is currently enrolled in the Western University/Fanshawe College combined program of Media, Theory and Production. Natalie has worked on various design project for vivid focusing on branding, illustrations and copywriting. Previously, she worked as a graphic designer at Lug Hockey and a graphic design intern at Ink Entertainment. </p>
                     </div>
                   </li>
                   <li class="orbit-slide">
