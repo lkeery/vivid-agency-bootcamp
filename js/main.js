@@ -21,5 +21,23 @@ import Team from "./modules/TeamObject.js";
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera  
     }
 
+    // video player starts here 
+
+    let vidPlayer = document.querySelector('#trailer');
+    let playBtn = document.querySelector('.play');
+    let pauseBtn = document.querySelector('.pause');
+    
+    function playVideo() {
+        if (vidPlayer.paused == true) {
+            vidPlayer.play();
+        }
+    }
+
+    function pauseVideo() {
+        vidPlayer.pause();
+    }
+    
     button.addEventListener('click', backToTop);
+    playBtn.addEventListener('click', playVideo);
+    pauseBtn.addEventListener('click', pauseVideo)
 })();
