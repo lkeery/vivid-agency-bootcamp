@@ -3,22 +3,23 @@ import Team from "./modules/TeamObject.js";
 (() => {
     console.log('Connected');
 
-    const member = document.querySelector('.member-wrapper').children;
+    let button = document.querySelector("#scrollToTop");
+    let hero = document.querySelector("#hero-full-screen");
 
-    function displayMember() {
-        
-        let currentMember = this.textContent;
+    window.onscroll = function() {scroll()};
 
-        member[0].src = `images/${Team[currentMember].avatar}`;
-        member[2].textContent = Team[currentMember].role;
-        member[3].textContent = Team[currentMember].bio;
+    function scroll() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.querySelector("#scrollToTop").style.display = "block";
+        } else {
+            document.querySelector("#scrollToTop").style.display = "none";
+        }
+    }
+    
+    function backToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera  
     }
 
-    for (let member in Team) {
-        console.log(member);
-
-        let nextMemberToggle = document.querySelector('.memberToggle');
-
-        nextMemberToggle.addEventListener('click', displayMember)
-    }
+    button.addEventListener('click', backToTop);
 })();
